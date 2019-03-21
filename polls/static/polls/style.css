@@ -1,0 +1,9 @@
+li {
+    color: white;
+    text-decoration: none;
+    list-style-type:decimal;
+}
+
+body{
+    background: brown;
+}
