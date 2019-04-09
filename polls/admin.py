@@ -1,6 +1,7 @@
 from django.contrib import admin
 from .models import Question
 from .models import Choice
+from django.contrib import admin
 # Register your models here.
 
 
@@ -22,7 +23,7 @@ class QuestionAdmin(admin.ModelAdmin):
     inlines = [ChoiceInline]
 
 
-admin.site.register(Question,QuestionAdmin)
+admin.site.register(Question, QuestionAdmin)
 # assert isinstance(admin.site.register, object)
 # admin.site.register(Choice)
 

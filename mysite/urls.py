@@ -19,5 +19,6 @@ from django.conf.urls import include
 urlpatterns = [
     path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
-
+    path('login/', include('login.urls')),
+    path('captcha', include('captcha.urls')),
 ]
